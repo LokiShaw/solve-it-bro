@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -5,6 +7,14 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
 }
+
+// Machine-specific settings (gitignored), e.g. solveitbro.apiBaseUrl=http://192.168.1.20:8787
+val localProps = Properties().apply {
+    rootProject.file("local.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
+}
+val apiBaseUrl = (project.findProperty("solveitbro.apiBaseUrl")
+    ?: localProps.getProperty("solveitbro.apiBaseUrl")
+    ?: "http://10.0.2.2:8787").toString().trimEnd('/')
 
 android {
     namespace = "com.solveitbro.app"
@@ -21,7 +31,7 @@ android {
         buildConfigField(
             "String",
             "API_BASE_URL",
-            "\"${project.findProperty("solveitbro.apiBaseUrl") ?: "http://10.0.2.2:8787"}\"",
+            "\"$apiBaseUrl\"",
         )
         buildConfigField("int", "FREE_DAILY_SOLVES", "5")
     }

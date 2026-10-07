@@ -20,6 +20,29 @@
     <string name="review_solves_left">%1$d free solves left today</string>
     <string name="review_unlimited">Unlimited solves (Pro)</string>
     <string name="review_limit_reached">You\'ve used today\'s free solves. Watch an ad or go Pro for unlimited solves.</string>
-    <string name="review_solve_coming">Solving is coming in the next update.</string>
     <string name="back">Back</string>
+
+    <string name="review_crop_hint">Drag the corners so only the question is inside the box.</string>
+    <string name="review_language">Explain in</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिंदी</string>
+
+    <string name="result_title">Solution</string>
+    <string name="result_reading">Reading your question…</string>
+    <string name="result_solving">Working it out step by step…</string>
+    <string name="result_question">Question</string>
+    <string name="result_step">Step %1$d</string>
+    <string name="result_answer">Answer</string>
+    <string name="result_tip">Tip</string>
+    <string name="result_simpler">Explain simpler</string>
+    <string name="result_simpler_loading">Making it simpler…</string>
+    <string name="result_new">New question</string>
+    <string name="result_retry">Try again</string>
+    <string name="result_unreadable">I couldn\'t read the question clearly. Try a sharper photo in good light.</string>
+    <string name="result_not_question">This doesn\'t look like a homework question.</string>
+
+    <string name="error_cannot_help">Sorry, I can\'t help with this one.</string>
+    <string name="error_network">Couldn\'t reach the server. Check your internet and try again.</string>
+    <string name="error_server">Something went wrong. Please try again.</string>
+    <string name="error_simpler_failed">Couldn\'t make a simpler version right now.</string>
 </resources>

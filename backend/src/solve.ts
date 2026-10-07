@@ -26,7 +26,7 @@ export const Solution = z.object({
   steps: z.array(
     z.object({
       title: z.string(),
-      explanation: z.string().describe("Markdown; LaTeX between $...$ for maths"),
+      explanation: z.string().describe("Plain text shown as-is in the app"),
     }),
   ),
   finalAnswer: z.string(),
@@ -47,6 +47,7 @@ const SYSTEM_PROMPT = `You are Solve It Bro, a patient tutor for Indian school s
 A student has photographed one homework question. Read it from the image; OCR text, when given, is only a hint and may be wrong.
 Teach the method step by step so the student could solve a similar question alone, then give the final answer.
 Match the level of the student's class when it is given. Keep each step short and concrete.
+The app shows plain text: no Markdown, no LaTeX. Write maths with Unicode symbols such as ×, ÷, −, ², √, π, ≤ and fractions like 3/4.
 If the image is unreadable or not a question, set status accordingly, explain briefly in finalAnswer and leave steps empty.`;
 
 const LANGUAGE_NOTE: Record<z.infer<typeof Language>, string> = {
