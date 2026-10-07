@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Solve It Bro</string>
+
+    <string name="capture_hint">फ्रेम में एक ही सवाल रखें</string>
+    <string name="capture_take_photo">फ़ोटो लें</string>
+    <string name="capture_pick_gallery">गैलरी से चुनें</string>
+    <string name="capture_flash_on">फ़्लैश चालू</string>
+    <string name="capture_flash_off">फ़्लैश बंद</string>
+    <string name="capture_failed">फ़ोटो नहीं ली जा सकी। फिर से कोशिश करें।</string>
+
+    <string name="permission_title">कैमरा की अनुमति चाहिए</string>
+    <string name="permission_body">Solve It Bro आपके होमवर्क के सवाल की फ़ोटो लेने के लिए कैमरा इस्तेमाल करता है। आप गैलरी से फ़ोटो भी चुन सकते हैं।</string>
+    <string name="permission_grant">कैमरा चालू करें</string>
+
+    <string name="review_title">अपनी फ़ोटो देखें</string>
+    <string name="review_retake">दोबारा लें</string>
+    <string name="review_solve">हल करो</string>
+    <string name="review_load_failed">यह फ़ोटो नहीं खुल सकी।</string>
+    <string name="review_solves_left">आज %1$d मुफ़्त सवाल बाकी हैं</string>
+    <string name="review_unlimited">असीमित सवाल (Pro)</string>
+    <string name="review_limit_reached">आज के मुफ़्त सवाल खत्म हो गए। विज्ञापन देखें या असीमित सवालों के लिए Pro लें।</string>
+    <string name="review_solve_coming">सवाल हल करना अगले अपडेट में आ रहा है।</string>
+    <string name="back">वापस</string>
+</resources>
