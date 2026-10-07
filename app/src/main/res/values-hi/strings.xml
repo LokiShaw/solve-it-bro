@@ -20,6 +20,29 @@
     <string name="review_solves_left">आज %1$d मुफ़्त सवाल बाकी हैं</string>
     <string name="review_unlimited">असीमित सवाल (Pro)</string>
     <string name="review_limit_reached">आज के मुफ़्त सवाल खत्म हो गए। विज्ञापन देखें या असीमित सवालों के लिए Pro लें।</string>
-    <string name="review_solve_coming">सवाल हल करना अगले अपडेट में आ रहा है।</string>
     <string name="back">वापस</string>
+
+    <string name="review_crop_hint">कोनों को खींचें ताकि बॉक्स में सिर्फ़ सवाल रहे।</string>
+    <string name="review_language">इसमें समझाएँ</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिंदी</string>
+
+    <string name="result_title">हल</string>
+    <string name="result_reading">आपका सवाल पढ़ा जा रहा है…</string>
+    <string name="result_solving">स्टेप बाय स्टेप हल किया जा रहा है…</string>
+    <string name="result_question">सवाल</string>
+    <string name="result_step">स्टेप %1$d</string>
+    <string name="result_answer">उत्तर</string>
+    <string name="result_tip">टिप</string>
+    <string name="result_simpler">और आसान समझाओ</string>
+    <string name="result_simpler_loading">आसान बनाया जा रहा है…</string>
+    <string name="result_new">नया सवाल</string>
+    <string name="result_retry">फिर से कोशिश करें</string>
+    <string name="result_unreadable">सवाल साफ़ नहीं पढ़ा जा सका। अच्छी रोशनी में साफ़ फ़ोटो लें।</string>
+    <string name="result_not_question">यह होमवर्क का सवाल नहीं लगता।</string>
+
+    <string name="error_cannot_help">माफ़ करें, इसमें मदद नहीं कर सकता।</string>
+    <string name="error_network">सर्वर से कनेक्ट नहीं हो सका। इंटरनेट चेक करके फिर कोशिश करें।</string>
+    <string name="error_server">कुछ गड़बड़ हो गई। फिर से कोशिश करें।</string>
+    <string name="error_simpler_failed">अभी आसान वर्शन नहीं बन सका।</string>
 </resources>

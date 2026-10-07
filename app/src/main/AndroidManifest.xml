@@ -16,11 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SolveItBro">
 
-        <!-- On-device OCR models are downloaded by Play services at install time. -->
-        <meta-data
-            android:name="com.google.mlkit.vision.DEPENDENCIES"
-            android:value="ocr,ocr_devanagari" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"

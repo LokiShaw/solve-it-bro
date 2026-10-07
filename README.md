@@ -17,7 +17,7 @@ Snap a photo of any homework question and get a step-by-step explanation in Engl
 4. Result screen with "explain simpler" and follow-up chat
 5. History of solved questions with bookmarks
 
-Status: the capture screen, photo review and the backend `/v1/solve` endpoint are in. Crop, OCR, the result screen and history come next.
+Status: capture, crop, OCR, solving and the result screen with "explain simpler" work end to end. Follow-up chat and history come next.
 
 ## Monetization
 
@@ -25,11 +25,15 @@ Free daily solves (5 by default) with ads, plus a subscription for unlimited sol
 
 ## Running the app
 
-Open the repo in Android Studio and run the `app` configuration. Debug builds talk to `http://10.0.2.2:8787`, which is your machine's localhost as seen from the emulator. Point a build elsewhere with:
+Open the repo in Android Studio and run the `app` configuration. Debug builds talk to `http://10.0.2.2:8787`, which is your computer's localhost as seen from the emulator.
+
+On a real phone, the phone must reach the backend over Wi-Fi. Add your computer's LAN address to `local.properties` (not committed), then rebuild:
 
 ```
-./gradlew assembleDebug -Psolveitbro.apiBaseUrl=https://your-backend.example.com
+solveitbro.apiBaseUrl=http://192.168.1.20:8787
 ```
+
+Find the address with `ipconfig` (Windows) or `ifconfig` (Mac/Linux), keep phone and computer on the same Wi-Fi, and allow Node through the firewall if Windows asks.
 
 ## Running the backend
 
