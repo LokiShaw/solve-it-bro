@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Solve It Bro</string>
+
+    <string name="capture_hint">Fit one question inside the frame</string>
+    <string name="capture_take_photo">Take photo</string>
+    <string name="capture_pick_gallery">Pick from gallery</string>
+    <string name="capture_flash_on">Flash on</string>
+    <string name="capture_flash_off">Flash off</string>
+    <string name="capture_failed">Couldn\'t take the photo. Try again.</string>
+
+    <string name="permission_title">Camera access needed</string>
+    <string name="permission_body">Solve It Bro uses the camera to photograph your homework question. You can also pick a photo from your gallery instead.</string>
+    <string name="permission_grant">Allow camera</string>
+
+    <string name="review_title">Check your photo</string>
+    <string name="review_retake">Retake</string>
+    <string name="review_solve">Solve it</string>
+    <string name="review_load_failed">Couldn\'t open this photo.</string>
+    <string name="review_solves_left">%1$d free solves left today</string>
+    <string name="review_unlimited">Unlimited solves (Pro)</string>
+    <string name="review_limit_reached">You\'ve used today\'s free solves. Watch an ad or go Pro for unlimited solves.</string>
+    <string name="review_solve_coming">Solving is coming in the next update.</string>
+    <string name="back">Back</string>
+</resources>
